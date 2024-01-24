@@ -2,7 +2,7 @@ Olá, sejam bem vindos ao meu projeto do cachceiro viajante!
 
 Contextualização:
 
-  O problema do Caixeiro Viajante com restrição de visitar todos os bares é uma variação do tradicional Problema do Caixeiro Viajante.
+  O problema do Cachaceiro Viajante é uma variação do tradicional Problema do Caixeiro Viajante com restrição de visitar todos os bares.
   No entanto, nesta versão, introduzimos uma restrição adicional: o viajante deve visitar todos os bares da cidade antes de concluir sua jornada.
 
 Restrições:
