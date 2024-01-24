@@ -6,21 +6,25 @@ Contextualização:
   No entanto, nesta versão, introduzimos uma restrição adicional: o viajante deve visitar todos os bares da cidade antes de concluir sua jornada.
 
 Restrições:
-    1. Visita a todos os bares:
-        ◦ A restrição central deste problema é que o caixeiro viajante deve visitar todos os bares da cidade antes de encerrar sua jornada.
-        Isso significa que cada bar deve ser incluído na rota.
-    2. Minimização da distância total:
-        ◦ Como no problema original do Caixeiro Viajante, o objetivo secundário é minimizar a distância total percorrida ao visitar os bares.
-        Portanto, a rota deve ser otimizada para ser a mais curta possível.
-    3. Determinação da ordem de visitas:
-        ◦ A ordem em que os bares são visitados é uma variável importante. Isso implica que o viajante deve decidir qual bar visitar a seguir,
-        levando em consideração a localização dos bares e a otimização da distância total percorrida.
-    4. Retorno ao ponto de partida:
-        ◦ Como em todas as versões do problema do Caixeiro Viajante, o viajante deve retornar ao ponto de partida para concluir sua jornada
-        após visitar todos os bares.
-    5. Complexidade computacional:
-        ◦ À medida que o número de bares na cidade aumenta, a complexidade computacional do problema também cresce de forma exponencial,
-        tornando a busca pela solução ótima desafiadora.
+  1. Visita a todos os bares:
+     A restrição central deste problema é que o caixeiro viajante deve visitar todos os bares da cidade antes de encerrar sua jornada.
+     Isso significa que cada bar deve ser incluído na rota.
+     
+  2. Minimização da distância total:
+     Como no problema original do Caixeiro Viajante, o objetivo secundário é minimizar a distância total percorrida ao visitar os bares.
+     Portanto, a rota deve ser otimizada para ser a mais curta possível.
+     
+  3. Determinação da ordem de visitas:
+     A ordem em que os bares são visitados é uma variável importante. Isso implica que o viajante deve decidir qual bar visitar a seguir,
+     levando em consideração a localização dos bares e a otimização da distância total percorrida.
+     
+  4. Retorno ao ponto de partida:
+     Como em todas as versões do problema do Caixeiro Viajante, o viajante deve retornar ao ponto de partida para concluir sua jornada
+     após visitar todos os bares.
+     
+  5. Complexidade computacional:
+     À medida que o número de bares na cidade aumenta, a complexidade computacional do problema também cresce de forma exponencial,
+     tornando a busca pela solução ótima desafiadora.
 
 Para dar um toque especial, introduzimos a ideia de que o caixeiro viajante fica mais tonto a cada bar visitado. Isso acrescentaria um novo elemento
 à otimização da rota, uma vez que o objetivo seria minimizar a "intoxicação" total ao mesmo tempo que ele visita todos os bares. Seguimos os seguintes critérios: 
